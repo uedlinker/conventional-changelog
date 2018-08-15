@@ -2,6 +2,10 @@
   "command": {
     "bootstrap": {
       "hoist": true
+    },
+    "publish": {
+      "conventionalCommits": true,
+      "changelogPreset": "angular"
     }
   },
   "packages": [
