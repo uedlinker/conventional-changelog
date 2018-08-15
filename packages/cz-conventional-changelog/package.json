@@ -1,0 +1,40 @@
+{
+  "name": "@uedlinker/cz-conventional-changelog",
+  "version": "0.3.1",
+  "description": "根据 Angular git commit 提交规范定制的适配器",
+  "keywords": [
+    "commitizen",
+    "conventional-changelog"
+  ],
+  "files": [
+    "commit-scopes.json",
+    "commit-types.json",
+    "engine.js",
+    "index.js"
+  ],
+  "author": "Kevin Lee <sprint_l@aliyun.com>",
+  "homepage": "https://github.com/uedlinker/conventional-changelog/packages/cz-conventional-changelog",
+  "license": "ISC",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "dependencies": {
+    "longest": "^1.0.1",
+    "right-pad": "^1.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uedlinker/conventional-changelog.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/uedlinker/conventional-changelog/issues"
+  }
+}

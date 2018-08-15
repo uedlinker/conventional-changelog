@@ -3,5 +3,10 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./packages/cz-conventional-changelog/index.js"
+    }
   }
 }

@@ -1,0 +1,10 @@
+{
+  "global": {
+    "description": "影响整个项目",
+    "title": "global"
+  },
+  "*": {
+    "description": "搞不清影响范围大小",
+    "title": "*"
+  }
+}
