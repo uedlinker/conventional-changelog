@@ -22,7 +22,7 @@ module.exports = function (options) {
   var length = longest(Object.keys(types)).length * 2 + 1;
 
   var typeList = Object.keys(types).map(key => ({
-    name: `${rightPad(key + '：', length/2, '  ')} ${types[key].description}`,
+    name: `${rightPad(key + ':', length/2, '  ')} ${types[key].description}`,
     value: key
   }));
 
