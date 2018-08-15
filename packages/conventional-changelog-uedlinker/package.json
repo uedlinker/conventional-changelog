@@ -1,0 +1,49 @@
+{
+  "name": "@uedlinker/conventional-changelog-uedlinker",
+  "version": "0.0.0",
+  "description": "custom conventional-changelog preset",
+  "author": "Kevin Lee <sprint_l@aliyun.com>",
+  "homepage": "https://github.com/uedlinker/conventional-changelog/packages/conventional-changelog-uedlinker#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "conventional-changelog",
+    "uedlinker",
+    "preset"
+  ],
+  "files": [
+    "conventional-changelog.js",
+    "conventional-recommended-bump.js",
+    "index.js",
+    "parser-opts.js",
+    "writer-opts.js",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=6.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uedlinker/conventional-changelog.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/uedlinker/conventional-changelog/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "better-than-before": "^1.0.0",
+    "conventional-changelog-core": "^3.0.0",
+    "git-dummy-commit": "^1.2.0",
+    "shelljs": "^0.8.0",
+    "through2": "^2.0.0"
+  },
+  "dependencies": {
+    "compare-func": "^1.3.1",
+    "q": "^1.5.1"
+  }
+}
