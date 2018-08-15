@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/uedlinker/conventional-changelog.git"
+    "url": "https://github.com/uedlinker/conventional-changelog.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
