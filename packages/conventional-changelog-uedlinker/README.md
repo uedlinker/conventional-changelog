@@ -1,37 +1,36 @@
-# [![NPM version][npm-image]][npm-url]
+# conventional-changelog-uedlinker
+
+[![NPM version][npm-image]][npm-url]
 
 > [conventional-changelog](https://github.com/ajoslin/conventional-changelog) [uedlinker](https://github.com/angular/angular) 预设
 
+配合 [custom-standard-version](https://github.com/RunningCoderLee/custom-standard-version) 工具使用，创建和更新 `CHANGELOG`
 
-## Uedlinker Convention
+也支持 `conventional-chanlog` 生态圈中可以自定义预设（preset）的其他工具
 
-Uedlinker's [提交信息规范](https://github.com/uedlinker/conventional-changelog/blob/master/packages/commitlint-config/README.md#%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83).
+## 使用
 
-### 示例
+全局安装
 
-只有标题:
-
-```
-新功能（button)： 添加 'size' prop
-```
-
-标题和关联 issue：
-
-```
-修复（button）： 禁用状态下点击依然有效
-
-closes #28
+```shell
+$ npm i -g custom-standard-version @uedlinker/conventional-changelog-uedlinker
 ```
 
-标题和不兼容变更:
+本地安装
 
-```
-性能优化（table）： 提高加载超过 1000 条数据后的速度
-
-不兼容变更: 不再支持拖拽功能
+```shell
+$ npm i -D custom-standard-version @uedlinker/conventional-changelog-uedlinker
 ```
 
-### 提交规范格式
+**注意：** 确保此预设和 `custom-standard-version` 工具安装在同一作用域
+
+## 示例
+
+使用 `custom-standard-version` 工具和此预设生成的 `CHANGELOG` 如下
+
+![预览](./asset/preview.png)
+
+## 提交规范格式
 
 参考[这里](https://github.com/uedlinker/conventional-changelog/blob/master/packages/commitlint-config/README.md#%E6%8F%90%E4%BA%A4%E8%A7%84%E8%8C%83)
 
