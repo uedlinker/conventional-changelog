@@ -2,11 +2,12 @@
   "name": "root",
   "private": true,
   "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
     "lerna": "^3.0.3"
   },
   "config": {
     "commitizen": {
-      "path": "./packages/cz-conventional-changelog/index.js"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
