@@ -1,6 +1,6 @@
 {
   "name": "@uedlinker/cz-conventional-changelog",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "根据 Angular git commit 提交规范定制的适配器",
   "keywords": [
     "commitizen",

@@ -1,6 +1,6 @@
 {
   "name": "@uedlinker/conventional-changelog-uedlinker",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "custom conventional-changelog preset",
   "author": "Kevin Lee <sprint_l@aliyun.com>",
   "homepage": "https://github.com/uedlinker/conventional-changelog/packages/conventional-changelog-uedlinker#readme",
