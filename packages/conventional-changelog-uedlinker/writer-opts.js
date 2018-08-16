@@ -29,7 +29,7 @@ function getWriterOpts () {
       const issues = []
 
       commit.notes.forEach(note => {
-        note.title = `不兼容变更`
+        note.title = `💡 不兼容变更`
         discard = false
       })
 
