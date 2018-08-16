@@ -1,0 +1,21 @@
+{
+  "name": "@uedlinker/commitlint-config",
+  "version": "1.0.1",
+  "description": "适配中文提交信息的提交规范配置，基于 Angular 提交规范",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uedlinker/conventional-changelog.git"
+  },
+  "author": "李蔚生 <971353677@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uedlinker/conventional-changelog/issues"
+  },
+  "homepage": "https://github.com/uedlinker/conventional-changelog/tree/master/packages/commitlint-config#readme",
+  "scripts": {
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
