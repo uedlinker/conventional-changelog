@@ -122,7 +122,7 @@ module.exports = function (options) {
 
         // Apply breaking change prefix, removing it if already present
         var breaking = answers.breaking ? answers.breaking.trim() : '';
-        breaking = breaking ? '不兼容变更：' + breaking.replace(/^不兼容变更： /, '') : '';
+        breaking = breaking ? '不兼容变更: ' + breaking.replace(/^不兼容变更: /, '') : '';
         breaking = wrap(breaking, wrapOptions);
 
         var issues = answers.issues ? wrap(answers.issues, wrapOptions) : '';
