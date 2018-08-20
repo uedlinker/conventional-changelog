@@ -13,4 +13,4 @@
 
 - [cz-conventional-changelog](https://github.com/uedlinker/conventional-changelog/tree/master/packages/cz-conventional-changelog) - 根据 Angular git commit 提交规范定制的适配器 用于和 commitizen 配套使用
 - [conventional-changelog-uedlinker](https://github.com/uedlinker/conventional-changelog/tree/master/packages/conventional-changelog-uedlinker) - 定制化 `conventional-changelog` 预设，配合 `custom-standard-version` 生成 `CHANGELOG`
-- [commitlint-config](https://github.com/uedlinker/conventional-changelog/tree/master/packages/commitlint-config) - 基于 Angular 提交规范汉化版本的 commitlint 配置，配合 `commitlint` 强制检查提交是否符合规范
+- [commitlint-config](https://github.com/uedlinker/conventional-changelog/tree/master/packages/commitlint-config) - 基于 Angular 提交规范汉化版本的 commitlint 配置，配合 `commitlint` 强制检查提交是否符合规范
